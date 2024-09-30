@@ -1,12 +1,12 @@
 - CSEN 60 Lab 1
-- Firstname Lastname
+- Juan Rubio-Lamas
 - 10/01/2024
 
 # Lab 1 Submission
 
 ## Part 1
 
-Chosen webpage: *website url*
+Chosen webpage: *https://www.youtube.com/*
 
 ### 1a
 
