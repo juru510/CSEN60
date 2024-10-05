@@ -4,13 +4,35 @@ order of precedence :
 2. internal styles
 3. external styles
 
-Caveat: !important will overide any precedence
-*/
+/* Caveat: !important will overide any precedence */
+
+/* html(
+    font-family: Arial, sans-serif;   this turns my page white i dont know why
+) */
+
+/* ?html tag selector */
+body{ 
+    background-color:#1c87c9;
+}
 
 
-
-
+/* class selection */
 p {
     color: purple;
     /* background-color: orange; */
 }
+
+.middle-p{
+    color:#ffffff;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+/* id selection */
+#main-text{
+    line-height: 30px;
+
+}
+
+
