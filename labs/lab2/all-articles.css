@@ -1,15 +1,20 @@
 header {
-  /* think about which properties you'd want to use to make the header */
-  /* border-bottom color should be accent-background */
+  display: flex;                  /* Enables flexbox layout */
+  justify-content: flex-end;      /* Aligns content to the right */
+  padding: 10px;                 /* Adds padding around the header */
+  border-bottom: 2px solid var(--accent-background); /* Border color at the bottom */
+  background-color: #fff;        /* Optional: sets a background color for contrast */
 }
 
 input[type="search"] {
-  border-radius: 10px; /*round edges*/
-  background-color: #f8f9fa;
-  border: 1px solid gray;
-  padding: 0.5rem 1rem;
+  border-radius: 10px;           /* Rounded edges */
+  background-color: #f8f9fa;     /* Light background color */
+  border: 1px solid gray;        /* Gray border */
+  padding: 0.5rem 1rem;          /* Padding for the input */
+  margin-left: 20px;             /* Adds space between the tags and the search input */
 }
 
 article h1 a {
-  /*color should be accent-background */
+  color: var(--accent-background); /* Link color set to accent background */
+  text-decoration: none;            /* Removes underline from links */
 }
