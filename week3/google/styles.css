@@ -16,7 +16,7 @@ ul {
 }
 
 
-header {
+header,footer {
     display: flex;
     justify-content: space-between; /*it dont work?*/
 }
@@ -29,4 +29,12 @@ button {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+#climate-message{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
 }
