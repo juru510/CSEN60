@@ -14,10 +14,8 @@ body {
   padding: 0;
 }
 
+/* unordered list what is this for idk */
 
-/**
-  unordered list
-*/
 
 ul.tags {
   display: flex;
@@ -30,31 +28,32 @@ ul.tags {
   padding-left: 0;        /* No left padding for the list */
 }
 
-
 ul.tags li {
   border-radius: 10px;
   background-color: var(--gray);
-  /* background color should be --gray */
   padding: 4px;
-  margin-left: ;
-  margin-right: ;
 }
 
-ul.tags a {
-  /*color should be darkest-gray*/
-}
-
-/**
-  navigation
-*/
+/* Navigation styles */
 nav {
-  /* background color should be accent-background */
+  background-color: var(--accent-background);  /* Set background color for the nav */
+  display: flex;                              /* Enables flexbox on the nav */
+  justify-content: flex-end;                 /* Aligns items to the right */
+  padding: 10px;                             /* Adds padding around the nav */
 }
 
 nav ul {
-  /* something should go here */
+  list-style-type: none;   /* Removes default list styling */
+  margin: 0;               /* Removes default margin */
+  padding: 0;              /* Removes default padding */
+}
+
+nav ul li {
+  margin-left: 20px;       /* adds space between items */
 }
 
 nav ul a {
-  /* color should be accent-background-text */
+  color: var(--accent-background-text); /* Set link color */
+  text-decoration: none;    /* Removes underline from links */
+  font-size: 18px;         /* changes font size */
 }
