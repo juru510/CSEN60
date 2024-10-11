@@ -14,9 +14,6 @@ body {
   padding: 0;
 }
 
-/* unordered list what is this for idk */
-
-
 ul.tags {
   display: flex;
   list-style: none;
@@ -54,6 +51,6 @@ nav ul li {
 
 nav ul a {
   color: var(--accent-background-text); /* Set link color */
-  text-decoration: none;    /* Removes underline from links */
-  font-size: 18px;         /* changes font size */
+  text-decoration: none;                 /* Removes underline from links */
+  font-size: 18px;                        /* changes font size */
 }

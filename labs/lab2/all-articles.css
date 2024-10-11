@@ -3,7 +3,7 @@ header {
   justify-content: flex-end;      /* Aligns content to the right */
   padding: 10px;                 /* Adds padding around the header */
   border-bottom: 2px solid var(--accent-background); /* Border color at the bottom */
-  background-color: #fff;        /* sets a background color for contrast */
+  background-color: #fff;        /* Sets a background color for contrast */
 }
 
 input[type="search"] {
@@ -12,11 +12,84 @@ input[type="search"] {
   border: 1px solid gray;        /* Gray border */
   padding: 0.5rem 1rem;          /* Padding for the input */
   margin-left: 20px;             /* Adds space between the tags and the search input */
-  margin-top: 50px;              /* Adds space above the search input idk if its needed but the mockup had it */
+  margin-top: 50px;              /* Adds space above the search input */
 }
 
+/* Grid layout for articles */
+.article-grid {
+  display: grid;               /* Enables grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  grid-gap: 20px;              /* Adds space between grid items */
+  margin-top: 20px;            /* Adds space at the top of the grid */
+}
 
 article h1 a {
   color: var(--accent-background); /* Link color set to accent background */
-  text-decoration: none;            /* Removes underline from links */
+  text-decoration: none;           /* Removes underline from links */
+}
+
+/* Styles for the article tags */
+ul.tags {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-top: 20px;       /* Space above the list */
+  margin-bottom: 20px;    /* Space below the list */
+  padding-left: 0;        /* No left padding for the list */
+}
+
+ul.tags li {
+  border-radius: 10px;                   /* Rounded corners for the list items */
+  background-color: var(--gray);         /* Grey background for the list items */
+  padding: 4px 10px;                     /* Padding around the list items */
+  display: inline-block;                 /* Ensure each list item is boxed individually */
+}
+
+article {
+  flex: 0 0 30% ;
+  padding: 20px;      /* Adds padding inside each article */ 
+  min-width: 30ch;     /* for future ref */
+  max-width: 50ch;           
+}
+
+/* Navigation styles */
+nav {
+  background-color: var(--accent-background);  /* Set background color for the nav */
+  display: flex;                               /* Enables flexbox on the nav */
+  justify-content: flex-end;                   /* Aligns items to the right */
+  padding: 10px;                               /* Adds padding around the nav */
+}
+
+nav ul {
+  list-style-type: none;  /* Removes default list styling */
+  margin: 0;              /* Removes default margin */
+  padding: 0;             /* Removes default padding */
+}
+
+nav ul li {
+  margin-left: 20px;      /* Adds space between items */
+}
+
+nav ul a {
+  color: var(--accent-background-text); /* Set link color */
+  text-decoration: none;    /* Removes underline from links */
+  font-size: 18px;          /* Changes font size */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article-grid {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}
+
+
+main{
+  /* properties of flex etc */
 }
