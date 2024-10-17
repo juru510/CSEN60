@@ -1,32 +1,66 @@
-img {
-    border-radius: 100%;
-    width: 15rem;
-    height:15rem;
-
-    /* small logo 2 rem by 2 rem padding 0.5 */
+body {
+    margin: 0; /* Remove default margin */
 }
+
+.container {
+    display: flex; /* Enable flexbox */
+    height: 100vh; /* Full height of viewport */
+}
+
+aside {
+    width: 30%; /* Width for the profile section */
+    padding: 20px; /* Padding inside the aside */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+article {
+    width: 70%; /* Width for the article section */
+    padding: 20px; /* Padding inside the article */
+}
+
+/* Profile picture styles */
+.profile {
+    border-radius: 100%; /* Makes it a circle */
+    width: 15rem; /* 15 rem wide */
+    height: 15rem; /* 15 rem tall */
+}
+
+/* Logo styles */
+.logo {
+    width: 2rem; /* 2 rem wide */
+    height: 2rem; /* 2 rem tall */
+    padding: 0.5rem; /* Adds padding around the logo */
+}
+
+/* Social links styles */
+ul {
+    list-style: none; /* Removes bullet points */
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Use flexbox to align items in a row */
+    gap: 10px; /* Space between logos */
+}
+
 
 ul.tags {
     display: flex;
     list-style: none;
     gap: 10px;
-
-    margin-top: 20px;       /* Space above the list */
-    margin-bottom: 20px;    /* Space below the list */
-
-    padding-left: 0;        /* No left padding for the list */
+    margin-top: 20px; /* Space above the list */
+    margin-bottom: 20px; /* Space below the list */
+    padding-left: 0;
 }
 
 ul.tags li {
-
     border-radius: 10px;
-    background-color: var(--gray);
+    background-color: #ccc;
     padding: 4px;
 }
 
-header ul li{
-    border-radius: 10px;                   /* Rounded corners for the list items */
-    background-color: var(--gray);         /* Grey background for the list items */
-    padding: 4px 10px;                     /* Padding around the list items */
-    display: inline-block; 
+header ul li {
+    border-radius: 10px; /* Rounded corners for the list items */
+    background-color: var(--gray); /* Grey background for the list items */
+    padding: 4px 10px; /* Padding around the list items */
+    display: inline-block;
 }
