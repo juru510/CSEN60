@@ -19,11 +19,16 @@ body {
 }
 
 aside {
-    width: 30%; /* Width for the profile section */
-    padding: 20px; /* Padding inside the aside */
-    background-color: #54a0ff; /* Background color */
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    display: flex;                /* Enable flexbox */
+    flex-direction: column;       /* Stack items vertically */
+    align-items: center;          /* Center items horizontally */
+    justify-content: center;      /* Center items vertically */         
+    width: 600px;                 /* stretch the aside idk the exact portion it takes up im just eyeballing*/       
+    padding: 20px;  
+    text-align: center;           /*center the text*/          
+    background-color: var(--accent-background)   
 }
+
 
 article {
     width: 70%; /* Width for the article section */
@@ -74,8 +79,10 @@ header ul li {
     padding: 4px 10px; /* Padding around the list items */
     display: inline-block;
 }
-
-
+/* colors for individual things */
+time{
+    color: darkgray;
+}
 .secondary{
     color: gray; /*color 1*/
 }
@@ -83,14 +90,15 @@ header ul li {
 .primary{
     color: #54a0ff;  /*color 2*/
 }
-    
+header h1 {
+    color: var(--accent-text); 
+}
+
 nav {
     display: flex;                              /* Enables flexbox on the nav */
     justify-content: flex-end;                  /* Aligns items to the right */
     padding: 10px;                              /* Adds padding around the nav */
 }
-
-
 
 nav ul li {
     margin-left: 20px;                           /* Adds space between the stupid section */
