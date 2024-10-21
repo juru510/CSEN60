@@ -60,10 +60,10 @@ ul.tags li a:hover {
     text-decoration: none;                       /* Removes underline from links */
 }
 
-/* Navigation styles  this also controls the footer for prev/top/next i cant seperate*/ 
+/* Navigation styles*/ 
 nav {
     background-color: var(--accent-background);  /* Set background color for the nav */
-    display: flex;                               /* Enables flexbox on the nav */
+  display: flex;                               /* Enables flexbox on the nav */
     justify-content: flex-end;                   /* Aligns items to the right */
     padding: 10px 10px;                          /* Adds padding around the nav */
     margin-bottom: 20px;                         /* Adds space below the nav */
@@ -101,10 +101,11 @@ footer a {
     color: grey;
 }
 
-footer button {
-    background-color: var(--gray);
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
+footer nav{
+    background-color: white;
+}
+
+button.img{
+    width: 2rem;
+    height: 2rem;
 }
