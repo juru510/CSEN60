@@ -14,7 +14,30 @@ body {
     padding: 0;
 }
 
+h1{
+    color:var(--accent-background)  /* fixed stubborn color*/
+}
+/* some problems 
+nav controls footer nav 
+underlined li even tho i made it no
+*/
+
+
+
+.article-grid {
+    display: flex;
+    justify-content: center;  /* Centers articles horizontally */
+    padding: 0 20px;          /* Adds a bit of padding on the left and right */
+}
+
+article {
+    max-width: 800px;         /* Restricts the width of the article content */
+    margin: 0 auto;           /* Centers the article with auto margins */
+    text-align: left;       /* Centers the text within the article */
+}
+
 /* Styles for the article tags */
+
 ul.tags {
     display: flex;
     list-style: none;
@@ -28,14 +51,16 @@ ul.tags li {
     border-radius: 10px;                   /* Rounded corners for the list items */
     background-color: var(--gray);         /* Grey background for the list items */
     padding: 4px 10px;                     /* Padding around the list items */
-    display: inline-block;                 /* Ensure each list item is boxed individually */
+    display: inline-block;                 /*  each list item is boxed individually */
+    text-decoration: none;                       /* Removes underline from links */
 }
 
 ul.tags li a:hover {
     color: var(--accent-background-text);  /* Hover effect for tag links */
+    text-decoration: none;                       /* Removes underline from links */
 }
 
-/* Navigation styles */
+/* Navigation styles  this also controls the footer for prev/top/next i cant seperate*/ 
 nav {
     background-color: var(--accent-background);  /* Set background color for the nav */
     display: flex;                               /* Enables flexbox on the nav */
@@ -53,16 +78,13 @@ nav ul {
 
 nav ul li {
     margin-left: 20px;                           /* Adds space between items */
+    text-decoration: none;                       /* Removes underline from links */
 }
 
 nav ul a {
     color: var(--accent-background-text);        /* Set link color */
     text-decoration: none;                       /* Removes underline from links */
     font-size: 18px;                             /* Changes font size */
-}
-
-nav ul a:hover {
-    color: var(--accent-text);                   /* Hover effect for navigation links */
 }
 
 /* Footer styles */
@@ -85,8 +107,4 @@ footer button {
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
-    background-image: url(images/download.webp);
 }
-
-
-
