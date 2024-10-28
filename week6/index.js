@@ -11,6 +11,6 @@ function addToDO() {
     console.log(ul)
 
 const li = document.createElement("li")
-li.textcontent = input.value
+li.textContent = input.value
 ul.appendChild(li)
 }
