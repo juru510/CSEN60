@@ -6,6 +6,10 @@
 - people dont like to read think of marketing 
 -  the best way to convey info is pictures and videos
 - think about web conventions, unvisited vs visted colors
+- people have terrible attention spans now so we have to learn how to apeal to them
+- websites need to mold to the viewing device this is done by px width 
+- Webpages do not look the same in all major browsers
+
 
 ## Exercise 
 Example Website #7
@@ -15,6 +19,3 @@ Example Website #7
 - Typography ( not a fan of the font)
 - made using WIX not a bad thing but basic templates 
 - page includes a nav bar but its only a single page so it just makes you scroll down, also just way too long of a page I dont think this would work well on a mobile device
-- people have terrible attention spans now so we have to learn how to apeal to them
-- websites need to mold to the viewing device this is done by px width 
-- Webpages do not look the same in all major browsers
