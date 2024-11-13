@@ -19,7 +19,7 @@ async function getTodaysFact() {
     // console.log(response)
     const data = await response.json();
     console.log(data.text,"\n");
-    // console.log("getData finished")
+    // console.log("getData finished")1
 }
 
 // getRandomFact()
