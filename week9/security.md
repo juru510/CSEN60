@@ -19,7 +19,6 @@
 
 ## Privacy
 - Data Collection: Form / User Entry
-
 - Social networks
 - Share information with others
 - Connect with friends
@@ -31,5 +30,34 @@
 - Banking
 - Investments
 - Tax
-- COOKIE: name/value pair created by a website
-to store information on your computer
+
+
+
+## loss of sensitive info
+- PII (personally idenitfiable information)
+- name, adress , phone , email
+- age, gender, race
+- past contributions, purchases, rentals , friends
+- financial info like credit cards & bank accounts
+- legally sensitive
+- health info (HIPPA)
+- Student Info (FERPA)
+- Info from children (COPPA)
+- ## COOKIE
+- name/value pair created by a website to store information on your computer
+- dark mode light mode
+- incognito doesnt stop anyone from tracking where youve visited 
+
+ ## digital certificate
+ - has the content of a servers certificate
+ - the public key
+ - effective date of certificate
+ - verisign certified/ Authority 
+
+
+## GDPR
+- passed a law where people have a min amount of info they can gather
+- in the EU
+
+## CCPA
+- cookie banner that is required on websites
