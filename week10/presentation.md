@@ -31,4 +31,4 @@
 - they used css html js
 - they have every page on twitter home explore etc
 - functionalities include creating a post and commenting
-- they implented cookies through local storage
+- they implented cookies through local storage!
