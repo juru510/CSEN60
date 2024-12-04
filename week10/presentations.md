@@ -44,3 +44,17 @@
 - functionalities include creating a post and commenting
 - they implented cookies through local storage!
 
+## 11/4 presentations
+
+
+### Nike
+
+- they used tailwind react and alot of cool advanced stuff
+- data base and vervel server usage 
+
+
+### reddit 
+
+- html css and JS
+- js functionalities dropdown menues
+- carousel
