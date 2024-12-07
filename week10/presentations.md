@@ -58,3 +58,21 @@
 - html css and JS
 - js functionalities dropdown menues
 - carousel
+
+
+### friday
+
+## bluey group
+
+- wiki style info page about bluey tv show
+- features carousel with animations 
+- they used css html 
+- really cool pop ups and aesthetic 
+- they have an audio player which is really nice because no other group had one aswell as a quiz
+- 16 questions is crazy
+
+
+## pintrest
+- i like how everyone had alot of cool themes for their slideshow and they used basic google slide theme lol
+- features pin functionality, cookies
+- cookies and local storage was a big deal for them aswell as different screen sizes, i delt with that too
